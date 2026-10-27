@@ -1,5 +1,22 @@
 # Release verification
 
+## GitHub publication checks — 2026-10-27
+
+The first public [Validate run](https://github.com/aounali720/harbor-grc/actions/runs/40516543010)
+passed all five jobs for source commit
+[`2d1febe`](https://github.com/aounali720/harbor-grc/commit/2d1febea4744f37ab143e3eed3c5707001667faa).
+
+- Windows runners: Python 3.11 and 3.12.
+- Ubuntu runners: Python 3.11 and 3.12.
+- Each matrix job installed the locked development dependencies, ran Ruff and the
+  test suite, and built the distribution.
+- The separate runtime dependency advisory job also succeeded.
+
+This adds actual cross-platform CI evidence to the local results below. It does
+not validate the Docker deployment, TLS proxy, production capacity, or an
+organization's controls. Earlier sections retain the checks and open items
+recorded during local development.
+
 ## Version 1.1.2 — local account setup, 2026-10-27
 
 The full suite passed **113 tests** on Windows / CPython 3.11.15, with the existing
