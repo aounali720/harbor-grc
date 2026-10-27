@@ -1,12 +1,8 @@
 # Harbor GRC
 
-Harbor GRC is a working application and a fictional assessment case study for
-**SaaS governance, cloud assurance, and third-party risk management**. It brings
-risks, controls, evidence, findings, assets, and suppliers into one workflow.
+I built Harbor GRC as a local application to work through risk, evidence and review decisions using a fictional SaaS company. It tracks risks, controls, findings, supplier reviews and supporting evidence references in one place.
 
-**Current status:** a tested portfolio project and a foundation for controlled
-pilots. It still needs security and operational validation before workplace
-production use.
+**Status:** a tested project with sample data. I haven't validated it for a real organization's production use.
 
 [Objectives](#project-objectives) · [Capabilities](#what-it-can-do) ·
 [Limitations](#what-it-cannot-do) · [Local setup](#run-it-locally) ·
@@ -30,8 +26,7 @@ customer records, cloud configuration, or audit evidence.
 
 ## Project objectives
 
-The objective is to make a GRC decision traceable from an observation to an owned
-action and a documented review.
+The goal was to follow a finding from the initial observation through ownership, remediation, evidence review and residual-risk decisions.
 
 The project was designed to:
 
@@ -48,10 +43,7 @@ The project was designed to:
 6. **Provide a reproducible learning project.** Supply a runnable application,
    synthetic data, operating guidance, templates, and tests of failure cases.
 
-A successful demonstration follows one finding through its risk, control, evidence,
-and review; explains the remaining uncertainty; and shows why an unsupported
-operation is rejected. It does not establish that a real organization's controls
-are effective or that the organization has achieved certification.
+A useful demo is one finding linked to a risk, control, evidence record and review, including an attempt to make a change the app correctly rejects. This doesn't establish effectiveness or certification for any real company.
 
 ## Who it is for
 
