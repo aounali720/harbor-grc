@@ -1,0 +1,7 @@
+# Install/run Caddy separately on the host. Set GRC_DOMAIN to your DNS name.
+# Prefer a corporate access gateway with MFA and per-client throttling upstream.
+{$GRC_DOMAIN} {
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:8000
+}
+

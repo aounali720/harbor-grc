@@ -1,0 +1,2143 @@
+{
+  "synthetic": true,
+  "company": "Northstar Metrics",
+  "purpose": "Read-only fictional register snapshot. Use the CLI demo command to create linked records in an empty demo database.",
+  "evidence_warning": "Reserved .example URIs do not host artifacts. Digests are synthetic case-study markers and do not prove a real control test.",
+  "snapshot": {
+    "generated_at": "2026-10-27T00:36:06.740847+00:00",
+    "schema_version": 1,
+    "registers": {
+      "risks": [
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "governance",
+          "control_ids": [
+            "CTL-ee4bc5744662",
+            "CTL-aada81a116b7"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-11-10",
+          "impact": 4,
+          "likelihood": 4,
+          "owner": "Identity lead",
+          "residual_impact": 4,
+          "residual_likelihood": 3,
+          "residual_rationale": "Fictional reviewer considered recent access/logging tests, remaining coverage gaps and business impact. Impact is unchanged; the residual estimate requires periodic review.",
+          "residual_review_date": "2026-10-27",
+          "residual_reviewed_by": "demo:risk-owner",
+          "status": "in_treatment",
+          "title": "RSK-02 Privileged access persists after role changes",
+          "treatment": "mitigate",
+          "id": "RSK-047c7bc10d78",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.733477+00:00",
+          "updated_at": "2026-10-27T00:36:06.733477+00:00",
+          "inherent_score": 16,
+          "residual_score": 12
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "vendor",
+          "control_ids": [
+            "CTL-83738e4d68d0",
+            "CTL-fc091fd901bc",
+            "CTL-806b92a92772"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-11-17",
+          "impact": 5,
+          "likelihood": 3,
+          "owner": "Reliability lead",
+          "residual_impact": null,
+          "residual_likelihood": null,
+          "residual_rationale": "",
+          "residual_review_date": null,
+          "residual_reviewed_by": "",
+          "status": "in_treatment",
+          "title": "RSK-03 Critical supplier outage exceeds recovery objectives",
+          "treatment": "mitigate",
+          "id": "RSK-4245392a9c1d",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.733477+00:00",
+          "updated_at": "2026-10-27T00:36:06.733477+00:00",
+          "inherent_score": 15,
+          "residual_score": null
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "cloud",
+          "control_ids": [
+            "CTL-08796020fbe4",
+            "CTL-52e67777cc5c"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-10-20",
+          "impact": 5,
+          "likelihood": 4,
+          "owner": "Cloud lead",
+          "residual_impact": null,
+          "residual_likelihood": null,
+          "residual_rationale": "",
+          "residual_review_date": null,
+          "residual_reviewed_by": "",
+          "status": "in_treatment",
+          "title": "RSK-01 Public exposure of customer exports",
+          "treatment": "mitigate",
+          "id": "RSK-58d80e1cc6cb",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.733477+00:00",
+          "updated_at": "2026-10-27T00:36:06.733477+00:00",
+          "inherent_score": 20,
+          "residual_score": null
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "application",
+          "control_ids": [
+            "CTL-5ac39f74b516",
+            "CTL-a2746775ef00"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-10-24",
+          "impact": 4,
+          "likelihood": 4,
+          "owner": "Engineering lead",
+          "residual_impact": null,
+          "residual_likelihood": null,
+          "residual_rationale": "",
+          "residual_review_date": null,
+          "residual_reviewed_by": "",
+          "status": "in_treatment",
+          "title": "RSK-05 High-severity dependency remains exploitable",
+          "treatment": "mitigate",
+          "id": "RSK-0ec673c53d45",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734019+00:00",
+          "updated_at": "2026-10-27T00:36:06.734019+00:00",
+          "inherent_score": 16,
+          "residual_score": null
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "vendor",
+          "control_ids": [
+            "CTL-fc091fd901bc",
+            "CTL-806b92a92772"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-11-17",
+          "impact": 4,
+          "likelihood": 3,
+          "owner": "Procurement lead",
+          "residual_impact": null,
+          "residual_likelihood": null,
+          "residual_rationale": "",
+          "residual_review_date": null,
+          "residual_reviewed_by": "",
+          "status": "in_treatment",
+          "title": "RSK-08 Supplier incident notice arrives too late",
+          "treatment": "mitigate",
+          "id": "RSK-4073477bac9e",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734019+00:00",
+          "updated_at": "2026-10-27T00:36:06.734019+00:00",
+          "inherent_score": 12,
+          "residual_score": null
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "operations",
+          "control_ids": [
+            "CTL-83738e4d68d0"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-12-01",
+          "impact": 5,
+          "likelihood": 3,
+          "owner": "Reliability lead",
+          "residual_impact": null,
+          "residual_likelihood": null,
+          "residual_rationale": "",
+          "residual_review_date": null,
+          "residual_reviewed_by": "",
+          "status": "in_treatment",
+          "title": "RSK-09 Restored backups cannot meet integrity requirements",
+          "treatment": "mitigate",
+          "id": "RSK-4a8377d85a92",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734019+00:00",
+          "updated_at": "2026-10-27T00:36:06.734019+00:00",
+          "inherent_score": 15,
+          "residual_score": null
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "governance",
+          "control_ids": [
+            "CTL-53548a637cea",
+            "CTL-9407195d651b"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-11-26",
+          "impact": 3,
+          "likelihood": 3,
+          "owner": "Risk lead",
+          "residual_impact": 3,
+          "residual_likelihood": 2,
+          "residual_rationale": "Fictional reviewer considered recent access/logging tests, remaining coverage gaps and business impact. Impact is unchanged; the residual estimate requires periodic review.",
+          "residual_review_date": "2026-10-27",
+          "residual_reviewed_by": "demo:risk-owner",
+          "status": "in_treatment",
+          "title": "RSK-07 Risk exceptions outlive their business justification",
+          "treatment": "mitigate",
+          "id": "RSK-7fa94499d823",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734019+00:00",
+          "updated_at": "2026-10-27T00:36:06.734019+00:00",
+          "inherent_score": 9,
+          "residual_score": 6
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "cloud",
+          "control_ids": [
+            "CTL-52e67777cc5c",
+            "CTL-806b92a92772"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-11-26",
+          "impact": 4,
+          "likelihood": 3,
+          "owner": "Security lead",
+          "residual_impact": 4,
+          "residual_likelihood": 2,
+          "residual_rationale": "Fictional reviewer considered recent access/logging tests, remaining coverage gaps and business impact. Impact is unchanged; the residual estimate requires periodic review.",
+          "residual_review_date": "2026-10-27",
+          "residual_reviewed_by": "demo:risk-owner",
+          "status": "in_treatment",
+          "title": "RSK-04 Security logs are incomplete during an incident",
+          "treatment": "mitigate",
+          "id": "RSK-c758cb666086",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734019+00:00",
+          "updated_at": "2026-10-27T00:36:06.734019+00:00",
+          "inherent_score": 12,
+          "residual_score": 8
+        },
+        {
+          "acceptance_approver": "",
+          "acceptance_expires": null,
+          "acceptance_rationale": "",
+          "category": "privacy",
+          "control_ids": [
+            "CTL-fc091fd901bc",
+            "CTL-c5e99a56ed99"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2026-12-11",
+          "impact": 4,
+          "likelihood": 3,
+          "owner": "Privacy lead",
+          "residual_impact": null,
+          "residual_likelihood": null,
+          "residual_rationale": "",
+          "residual_review_date": null,
+          "residual_reviewed_by": "",
+          "status": "in_treatment",
+          "title": "RSK-06 Processor retains data beyond contract",
+          "treatment": "mitigate",
+          "id": "RSK-ed1cfb140777",
+          "version": 1,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734019+00:00",
+          "updated_at": "2026-10-27T00:36:06.734019+00:00",
+          "inherent_score": 12,
+          "residual_score": null
+        },
+        {
+          "acceptance_approver": "demo:risk-approver",
+          "acceptance_expires": "2027-01-25",
+          "acceptance_rationale": "Public design assets are cached locally; the estimated one-day disruption is within the fictional marketing risk tolerance.",
+          "category": "vendor",
+          "control_ids": [
+            "CTL-fc091fd901bc",
+            "CTL-53548a637cea"
+          ],
+          "description": "Scenario states a potential business loss, not a confirmed incident. Validate likelihood with local threat and loss history before reuse.",
+          "due_date": "2027-01-25",
+          "impact": 2,
+          "likelihood": 2,
+          "owner": "Marketing lead",
+          "residual_impact": 2,
+          "residual_likelihood": 1,
+          "residual_rationale": "Fictional reviewer considered recent access/logging tests, remaining coverage gaps and business impact. Impact is unchanged; the residual estimate requires periodic review.",
+          "residual_review_date": "2026-10-27",
+          "residual_reviewed_by": "demo:risk-owner",
+          "status": "accepted",
+          "title": "RSK-10 Public design service unavailable for one business day",
+          "treatment": "accept",
+          "id": "RSK-69134c28c2f1",
+          "version": 2,
+          "created_by": "demo:risk-owner",
+          "created_at": "2026-10-27T00:36:06.734574+00:00",
+          "updated_at": "2026-10-27T00:36:06.734574+00:00",
+          "inherent_score": 4,
+          "residual_score": 2
+        }
+      ],
+      "controls": [
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "identity",
+          "framework_refs": [
+            "NIST CSF 2.0 PR.AA-05",
+            "NIST SP 800-53 Rev. 5 AC-2",
+            "NIST SP 800-53 Rev. 5 AC-6",
+            "ISO/IEC 27001:2022 A.5.18",
+            "ISO/IEC 27002:2022 5.18",
+            "ISO/IEC 27001:2022 A.8.2",
+            "ISO/IEC 27002:2022 8.2"
+          ],
+          "frequency_days": 90,
+          "owner": "Identity lead",
+          "status": "effective",
+          "test_procedure": "Compare all privileged identities with approved role assignments; investigate terminated and dormant users.",
+          "title": "CTL-01 Quarterly privileged access review",
+          "id": "CTL-ee4bc5744662",
+          "version": 2,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.726753+00:00",
+          "updated_at": "2026-10-27T00:36:06.737165+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "cloud",
+          "framework_refs": [
+            "NIST CSF 2.0 PR.DS-01",
+            "NIST SP 800-53 Rev. 5 AC-3",
+            "NIST SP 800-53 Rev. 5 SC-28",
+            "ISO/IEC 27001:2022 A.8.3",
+            "ISO/IEC 27002:2022 8.3",
+            "ISO/IEC 27001:2022 A.8.24",
+            "ISO/IEC 27002:2022 8.24"
+          ],
+          "frequency_days": 30,
+          "owner": "Cloud lead",
+          "status": "effective",
+          "test_procedure": "Inspect account and bucket public-access settings; verify anonymous reads fail and exceptions have approval.",
+          "title": "CTL-02 Production storage exposure",
+          "id": "CTL-08796020fbe4",
+          "version": 2,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.727772+00:00",
+          "updated_at": "2026-10-27T00:36:06.737692+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "cloud",
+          "framework_refs": [
+            "NIST CSF 2.0 DE.CM-09",
+            "NIST SP 800-53 Rev. 5 AU-2",
+            "NIST SP 800-53 Rev. 5 AU-6",
+            "NIST SP 800-53 Rev. 5 AU-12",
+            "ISO/IEC 27001:2022 A.8.15",
+            "ISO/IEC 27002:2022 8.15",
+            "ISO/IEC 27001:2022 A.8.16",
+            "ISO/IEC 27002:2022 8.16"
+          ],
+          "frequency_days": 30,
+          "owner": "Cloud lead",
+          "status": "effective",
+          "test_procedure": "Sample each production account and region; verify management events arrive in the protected log account.",
+          "title": "CTL-03 Centralized cloud audit logging",
+          "id": "CTL-52e67777cc5c",
+          "version": 2,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.728283+00:00",
+          "updated_at": "2026-10-27T00:36:06.737692+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "operations",
+          "framework_refs": [
+            "NIST CSF 2.0 RC.RP-03",
+            "NIST SP 800-53 Rev. 5 CP-9",
+            "NIST SP 800-53 Rev. 5 CP-10",
+            "ISO/IEC 27001:2022 A.8.13",
+            "ISO/IEC 27002:2022 8.13"
+          ],
+          "frequency_days": 90,
+          "owner": "Reliability lead",
+          "status": "implemented",
+          "test_procedure": "Restore a representative backup in isolation; measure recovery time and confirm record integrity.",
+          "title": "CTL-04 Restore testing",
+          "id": "CTL-83738e4d68d0",
+          "version": 1,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.728835+00:00",
+          "updated_at": "2026-10-27T00:36:06.728835+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "vendor",
+          "framework_refs": [
+            "NIST CSF 2.0 GV.SC-06",
+            "NIST SP 800-53 Rev. 5 SR-3",
+            "NIST SP 800-53 Rev. 5 SR-6",
+            "NIST SP 800-53 Rev. 5 SA-9",
+            "ISO/IEC 27001:2022 A.5.19",
+            "ISO/IEC 27002:2022 5.19",
+            "ISO/IEC 27001:2022 A.5.20",
+            "ISO/IEC 27002:2022 5.20",
+            "ISO/IEC 27001:2022 A.5.23",
+            "ISO/IEC 27002:2022 5.23"
+          ],
+          "frequency_days": 180,
+          "owner": "Procurement lead",
+          "status": "implemented",
+          "test_procedure": "Verify service scope, independent assurance, incident notice, data handling and customer responsibilities before approval.",
+          "title": "CTL-05 Critical vendor due diligence",
+          "id": "CTL-fc091fd901bc",
+          "version": 1,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.728835+00:00",
+          "updated_at": "2026-10-27T00:36:06.728835+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "vendor",
+          "framework_refs": [
+            "NIST CSF 2.0 GV.SC-08",
+            "NIST CSF 2.0 RS.MA-01",
+            "NIST SP 800-53 Rev. 5 IR-4",
+            "NIST SP 800-53 Rev. 5 IR-8",
+            "NIST SP 800-53 Rev. 5 SR-8",
+            "ISO/IEC 27001:2022 A.5.24",
+            "ISO/IEC 27002:2022 5.24",
+            "ISO/IEC 27001:2022 A.5.26",
+            "ISO/IEC 27002:2022 5.26"
+          ],
+          "frequency_days": 180,
+          "owner": "Security lead",
+          "status": "implemented",
+          "test_procedure": "Run a tabletop involving a critical supplier and verify escalation contacts and contractual notices.",
+          "title": "CTL-06 Supplier incident coordination",
+          "id": "CTL-806b92a92772",
+          "version": 1,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.729348+00:00",
+          "updated_at": "2026-10-27T00:36:06.729348+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "governance",
+          "framework_refs": [
+            "NIST CSF 2.0 GV.RM-02",
+            "NIST SP 800-53 Rev. 5 RA-3",
+            "NIST SP 800-53 Rev. 5 PM-9",
+            "ISO/IEC 27001:2022 clause 6.1.2",
+            "ISO/IEC 27001:2022 clause 6.1.3"
+          ],
+          "frequency_days": 90,
+          "owner": "Risk lead",
+          "status": "implemented",
+          "test_procedure": "Sample accepted risks; check independent authority, documented rationale, expiry and treatment follow-up.",
+          "title": "CTL-07 Risk decisions and exceptions",
+          "id": "CTL-53548a637cea",
+          "version": 1,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.729861+00:00",
+          "updated_at": "2026-10-27T00:36:06.729861+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "application",
+          "framework_refs": [
+            "NIST CSF 2.0 ID.RA-01",
+            "NIST SP 800-53 Rev. 5 RA-5",
+            "NIST SP 800-53 Rev. 5 SI-2",
+            "ISO/IEC 27001:2022 A.8.8",
+            "ISO/IEC 27002:2022 8.8"
+          ],
+          "frequency_days": 14,
+          "owner": "Engineering lead",
+          "status": "implemented",
+          "test_procedure": "Reconcile scanner inventory to production assets and retest overdue high-severity issues.",
+          "title": "CTL-08 Vulnerability remediation",
+          "id": "CTL-5ac39f74b516",
+          "version": 1,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.730375+00:00",
+          "updated_at": "2026-10-27T00:36:06.730375+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "identity",
+          "framework_refs": [
+            "NIST CSF 2.0 PR.AA-03",
+            "NIST SP 800-53 Rev. 5 IA-2",
+            "NIST SP 800-53 Rev. 5 IA-5",
+            "ISO/IEC 27001:2022 A.8.5",
+            "ISO/IEC 27002:2022 8.5"
+          ],
+          "frequency_days": 90,
+          "owner": "Identity lead",
+          "status": "effective",
+          "test_procedure": "Sample workforce access paths and test enforced MFA, recovery and emergency-access procedures.",
+          "title": "CTL-09 Managed workforce authentication",
+          "id": "CTL-aada81a116b7",
+          "version": 2,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.730884+00:00",
+          "updated_at": "2026-10-27T00:36:06.738213+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "privacy",
+          "framework_refs": [
+            "NIST CSF 2.0 PR.DS-01",
+            "NIST SP 800-53 Rev. 5 SI-12",
+            "NIST SP 800-53 Rev. 5 MP-6",
+            "ISO/IEC 27001:2022 A.5.33",
+            "ISO/IEC 27002:2022 5.33",
+            "ISO/IEC 27001:2022 A.8.10",
+            "ISO/IEC 27002:2022 8.10"
+          ],
+          "frequency_days": 90,
+          "owner": "Privacy lead",
+          "status": "implemented",
+          "test_procedure": "Trace one approved deletion request through primary storage, analytics processors and documented backup retention.",
+          "title": "CTL-10 Data retention and deletion",
+          "id": "CTL-c5e99a56ed99",
+          "version": 1,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.730884+00:00",
+          "updated_at": "2026-10-27T00:36:06.730884+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "application",
+          "framework_refs": [
+            "NIST CSF 2.0 PR.PS-01",
+            "NIST SP 800-53 Rev. 5 CM-3",
+            "NIST SP 800-53 Rev. 5 CM-5",
+            "ISO/IEC 27001:2022 A.8.32",
+            "ISO/IEC 27002:2022 8.32"
+          ],
+          "frequency_days": 30,
+          "owner": "Engineering lead",
+          "status": "effective",
+          "test_procedure": "Sample production releases; verify independent approval, automated checks and rollback records.",
+          "title": "CTL-11 Production change authorization",
+          "id": "CTL-a2746775ef00",
+          "version": 2,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.731393+00:00",
+          "updated_at": "2026-10-27T00:36:06.738741+00:00"
+        },
+        {
+          "description": "Northstar Metrics fictional case-study control; scope is the production SaaS service.",
+          "domain": "governance",
+          "framework_refs": [
+            "NIST CSF 2.0 GV.OV-01",
+            "NIST SP 800-53 Rev. 5 PM-1",
+            "NIST SP 800-53 Rev. 5 PM-9",
+            "NIST SP 800-53 Rev. 5 CA-7",
+            "ISO/IEC 27001:2022 clause 9.1",
+            "ISO/IEC 27001:2022 clause 9.3"
+          ],
+          "frequency_days": 90,
+          "owner": "Risk lead",
+          "status": "effective",
+          "test_procedure": "Review committee minutes for overdue actions, risk appetite decisions and resource commitments.",
+          "title": "CTL-12 Security program oversight",
+          "id": "CTL-9407195d651b",
+          "version": 2,
+          "created_by": "demo:control-owner",
+          "created_at": "2026-10-27T00:36:06.731922+00:00",
+          "updated_at": "2026-10-27T00:36:06.738741+00:00"
+        }
+      ],
+      "vendors": [
+        {
+          "access_level": "privileged",
+          "assurance_notes": "Assurance scope and incident-notification terms reviewed; recovery and emergency access tests need quarterly confirmation.",
+          "criticality": "critical",
+          "data_sensitivity": "confidential",
+          "description": "Fictional supplier; any resemblance to a real provider is coincidental.",
+          "owner": "Procurement lead",
+          "questionnaire_score": 90,
+          "review_date": "2027-02-24",
+          "service": "Workforce identity provider",
+          "status": "approved",
+          "title": "VND-02 Lantern Identity",
+          "id": "VND-5e3b7707d9d4",
+          "version": 1,
+          "created_by": "demo:vendor-analyst",
+          "created_at": "2026-10-27T00:36:06.732451+00:00",
+          "updated_at": "2026-10-27T00:36:06.732451+00:00",
+          "tier": "tier_1"
+        },
+        {
+          "access_level": "privileged",
+          "assurance_notes": "Independent assurance covers infrastructure only. Customer IAM and storage configuration remain Northstar responsibilities; missing recovery drill is tracked.",
+          "criticality": "critical",
+          "data_sensitivity": "restricted",
+          "description": "Fictional supplier; any resemblance to a real provider is coincidental.",
+          "owner": "Procurement lead",
+          "questionnaire_score": 78,
+          "review_date": "2026-10-15",
+          "service": "Cloud infrastructure",
+          "status": "conditional",
+          "title": "VND-01 Nimbus Hosting",
+          "id": "VND-63ba89866586",
+          "version": 1,
+          "created_by": "demo:vendor-analyst",
+          "created_at": "2026-10-27T00:36:06.732451+00:00",
+          "updated_at": "2026-10-27T00:36:06.732451+00:00",
+          "tier": "tier_1"
+        },
+        {
+          "access_level": "none",
+          "assurance_notes": "Public assets only; no production or customer access. Annual scope recheck assigned.",
+          "criticality": "low",
+          "data_sensitivity": "public",
+          "description": "Fictional supplier; any resemblance to a real provider is coincidental.",
+          "owner": "Procurement lead",
+          "questionnaire_score": 82,
+          "review_date": "2027-08-23",
+          "service": "Public brand assets",
+          "status": "approved",
+          "title": "VND-05 Canvas Design",
+          "id": "VND-850e342e95bc",
+          "version": 1,
+          "created_by": "demo:vendor-analyst",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00",
+          "tier": "tier_3"
+        },
+        {
+          "access_level": "user",
+          "assurance_notes": "Retention commitments confirmed. Subprocessor change notification and deletion evidence remain open conditions.",
+          "criticality": "high",
+          "data_sensitivity": "confidential",
+          "description": "Fictional supplier; any resemblance to a real provider is coincidental.",
+          "owner": "Procurement lead",
+          "questionnaire_score": 72,
+          "review_date": "2026-11-17",
+          "service": "Transactional notifications",
+          "status": "conditional",
+          "title": "VND-03 Parcel Email",
+          "id": "VND-9b84a4f6f25a",
+          "version": 1,
+          "created_by": "demo:vendor-analyst",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00",
+          "tier": "tier_2"
+        },
+        {
+          "access_level": "none",
+          "assurance_notes": "No customer identifiers permitted. Questionnaire not completed; procurement must not infer assurance from missing responses.",
+          "criticality": "medium",
+          "data_sensitivity": "internal",
+          "description": "Fictional supplier; any resemblance to a real provider is coincidental.",
+          "owner": "Procurement lead",
+          "questionnaire_score": null,
+          "review_date": "2026-11-10",
+          "service": "Product telemetry",
+          "status": "due_diligence",
+          "title": "VND-04 Marble Analytics",
+          "id": "VND-f0d91698cc57",
+          "version": 1,
+          "created_by": "demo:vendor-analyst",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00",
+          "tier": "tier_3"
+        }
+      ],
+      "assets": [
+        {
+          "asset_type": "container-service",
+          "criticality": "medium",
+          "data_classification": "internal",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "staging",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-6",
+          "owner": "Cloud lead",
+          "provider": "AWS",
+          "title": "AST-06 Staging integration service",
+          "id": "AST-94d799fd9251",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "identity-provider",
+          "criticality": "critical",
+          "data_classification": "confidential",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "corporate",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-7",
+          "owner": "IT lead",
+          "provider": "SaaS",
+          "title": "AST-07 Workforce identity tenant",
+          "id": "AST-a1fb2cbbb29a",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "log-archive",
+          "criticality": "high",
+          "data_classification": "confidential",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "production",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-3",
+          "owner": "Cloud lead",
+          "provider": "AWS",
+          "title": "AST-03 Central audit archive",
+          "id": "AST-a93bf28d5518",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "container-service",
+          "criticality": "critical",
+          "data_classification": "confidential",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "production",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-4",
+          "owner": "Cloud lead",
+          "provider": "AWS",
+          "title": "AST-04 Container application service",
+          "id": "AST-b1222d33495f",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "object-storage",
+          "criticality": "critical",
+          "data_classification": "restricted",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "production",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-1",
+          "owner": "Cloud lead",
+          "provider": "AWS",
+          "title": "AST-01 Production customer objects",
+          "id": "AST-b1ce10959d9c",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "managed-database",
+          "criticality": "critical",
+          "data_classification": "restricted",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "production",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-2",
+          "owner": "Cloud lead",
+          "provider": "AWS",
+          "title": "AST-02 Customer application database",
+          "id": "AST-c17d5ef92781",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "backup-vault",
+          "criticality": "critical",
+          "data_classification": "restricted",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "production",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-5",
+          "owner": "Cloud lead",
+          "provider": "AWS",
+          "title": "AST-05 Recovery backup vault",
+          "id": "AST-e289752f46f3",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.732962+00:00",
+          "updated_at": "2026-10-27T00:36:06.732962+00:00"
+        },
+        {
+          "asset_type": "analytics",
+          "criticality": "medium",
+          "data_classification": "internal",
+          "description": "Synthetic asset identifier; no live account or endpoint is represented.",
+          "environment": "production",
+          "external_id": "https://inventory.northstar.example/assets/synthetic-8",
+          "owner": "IT lead",
+          "provider": "SaaS",
+          "title": "AST-08 Telemetry processor",
+          "id": "AST-c92d8bdbcd4d",
+          "version": 1,
+          "created_by": "demo:asset-owner",
+          "created_at": "2026-10-27T00:36:06.733477+00:00",
+          "updated_at": "2026-10-27T00:36:06.733477+00:00"
+        }
+      ],
+      "evidence": [
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-08796020fbe4",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Cloud lead",
+          "review_notes": "Fictional independent review checked scope, sample, collection date and stated exceptions. No real assurance is asserted.",
+          "reviewed_by": "demo:independent-reviewer",
+          "sha256": "a8fc7ffcf9546eb10791a0a20021fbbb2d5bc416f180d5c58f6f76715546b2e1",
+          "status": "approved",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-02 Synthetic test record for CTL-02",
+          "uri": "https://evidence.northstar.example/demo/test-2.json",
+          "id": "EVD-1260736fea6e",
+          "version": 2,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.737165+00:00",
+          "updated_at": "2026-10-27T00:36:06.737165+00:00"
+        },
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-ee4bc5744662",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Identity lead",
+          "review_notes": "Fictional independent review checked scope, sample, collection date and stated exceptions. No real assurance is asserted.",
+          "reviewed_by": "demo:independent-reviewer",
+          "sha256": "a62e20efb074d3253b148d08164c181ec589fa8112fb2a8f89ac7925f0c26259",
+          "status": "approved",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-01 Synthetic test record for CTL-01",
+          "uri": "https://evidence.northstar.example/demo/test-1.json",
+          "id": "EVD-f0019007bc27",
+          "version": 2,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.737165+00:00",
+          "updated_at": "2026-10-27T00:36:06.737165+00:00"
+        },
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-83738e4d68d0",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Reliability lead",
+          "review_notes": "",
+          "reviewed_by": "",
+          "sha256": "2bf67a54a75cf8dfab5d5d0c25612116d42fb58abeada00bcf37b4206ca5f0a6",
+          "status": "pending",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-04 Synthetic test record for CTL-04",
+          "uri": "https://evidence.northstar.example/demo/test-4.json",
+          "id": "EVD-7d4b22cdc8f2",
+          "version": 1,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.737692+00:00",
+          "updated_at": "2026-10-27T00:36:06.737692+00:00"
+        },
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-52e67777cc5c",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Cloud lead",
+          "review_notes": "Fictional independent review checked scope, sample, collection date and stated exceptions. No real assurance is asserted.",
+          "reviewed_by": "demo:independent-reviewer",
+          "sha256": "2333be75c8eb8db94e67d8aec96a8b3e3e1818ffd73b95116197cb7c52f5f55b",
+          "status": "approved",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-03 Synthetic test record for CTL-03",
+          "uri": "https://evidence.northstar.example/demo/test-3.json",
+          "id": "EVD-87ac67b3a78a",
+          "version": 2,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.737692+00:00",
+          "updated_at": "2026-10-27T00:36:06.737692+00:00"
+        },
+        {
+          "collected_on": "2026-06-29",
+          "control_id": "CTL-fc091fd901bc",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2026-10-17",
+          "owner": "Procurement lead",
+          "review_notes": "",
+          "reviewed_by": "",
+          "sha256": "36a045312849dc039730cc2f71c5314ba55e647aa9614e8af032d8eaedbfbade",
+          "status": "pending",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-05 Synthetic test record for CTL-05",
+          "uri": "https://evidence.northstar.example/demo/test-5.json",
+          "id": "EVD-3f7090d3c4db",
+          "version": 1,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.738213+00:00",
+          "updated_at": "2026-10-27T00:36:06.738213+00:00"
+        },
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-aada81a116b7",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Identity lead",
+          "review_notes": "Fictional independent review checked scope, sample, collection date and stated exceptions. No real assurance is asserted.",
+          "reviewed_by": "demo:independent-reviewer",
+          "sha256": "4ca328023a2040e4fb5a52923a63882dded5e5dd9e31150a3e592d1804f75083",
+          "status": "approved",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-06 Synthetic test record for CTL-09",
+          "uri": "https://evidence.northstar.example/demo/test-6.json",
+          "id": "EVD-a5f4eb8aeb41",
+          "version": 2,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.738213+00:00",
+          "updated_at": "2026-10-27T00:36:06.738213+00:00"
+        },
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-a2746775ef00",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Engineering lead",
+          "review_notes": "Fictional independent review checked scope, sample, collection date and stated exceptions. No real assurance is asserted.",
+          "reviewed_by": "demo:independent-reviewer",
+          "sha256": "1997727c56ce0190dfd424f51baf6c365e03676a22b93b4ab15f809f4b093b80",
+          "status": "approved",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-07 Synthetic test record for CTL-11",
+          "uri": "https://evidence.northstar.example/demo/test-7.json",
+          "id": "EVD-fab9bfd40bb4",
+          "version": 2,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.738213+00:00",
+          "updated_at": "2026-10-27T00:36:06.738741+00:00"
+        },
+        {
+          "collected_on": "2026-10-20",
+          "control_id": "CTL-9407195d651b",
+          "description": "Synthetic evidence metadata. The URI is reserved and does not host a real artifact; its digest represents a fictional case-study marker.",
+          "expires_on": "2027-01-18",
+          "owner": "Risk lead",
+          "review_notes": "Fictional independent review checked scope, sample, collection date and stated exceptions. No real assurance is asserted.",
+          "reviewed_by": "demo:independent-reviewer",
+          "sha256": "11929749d12ad5de644537ec2d8fc744cea1ed3a3ba072cebcb52aec1f845896",
+          "status": "approved",
+          "submitted_by": "demo:evidence-collector",
+          "title": "EVD-08 Synthetic test record for CTL-12",
+          "uri": "https://evidence.northstar.example/demo/test-8.json",
+          "id": "EVD-3c43ceea1b93",
+          "version": 2,
+          "created_by": "demo:evidence-collector",
+          "created_at": "2026-10-27T00:36:06.738741+00:00",
+          "updated_at": "2026-10-27T00:36:06.738741+00:00"
+        }
+      ],
+      "findings": [
+        {
+          "asset_id": "AST-e289752f46f3",
+          "control_id": "CTL-83738e4d68d0",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-11-17",
+          "evidence_id": "",
+          "owner": "Reliability lead",
+          "remediation": "Assign an accountable owner, record a bounded action, collect evidence and request independent retest.",
+          "risk_id": "RSK-4245392a9c1d",
+          "severity": "high",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "open",
+          "title": "FND-03 Supplier continuity exercise not completed",
+          "vendor_id": "VND-63ba89866586",
+          "id": "FND-9662594880a8",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739270+00:00",
+          "updated_at": "2026-10-27T00:36:06.739270+00:00"
+        },
+        {
+          "asset_id": "AST-a93bf28d5518",
+          "control_id": "CTL-52e67777cc5c",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-11-10",
+          "evidence_id": "",
+          "owner": "Security lead",
+          "remediation": "Assign an accountable owner, record a bounded action, collect evidence and request independent retest.",
+          "risk_id": "RSK-c758cb666086",
+          "severity": "medium",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "in_progress",
+          "title": "FND-04 Region coverage missing from log test",
+          "vendor_id": "",
+          "id": "FND-afafc6240a33",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739270+00:00",
+          "updated_at": "2026-10-27T00:36:06.739270+00:00"
+        },
+        {
+          "asset_id": "AST-c92d8bdbcd4d",
+          "control_id": "CTL-c5e99a56ed99",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-11-26",
+          "evidence_id": "",
+          "owner": "Privacy lead",
+          "remediation": "Assign an accountable owner, record a bounded action, collect evidence and request independent retest.",
+          "risk_id": "RSK-ed1cfb140777",
+          "severity": "medium",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "in_progress",
+          "title": "FND-06 Deletion confirmation missing from processor",
+          "vendor_id": "VND-9b84a4f6f25a",
+          "id": "FND-b798ec2555f9",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739270+00:00",
+          "updated_at": "2026-10-27T00:36:06.739270+00:00"
+        },
+        {
+          "asset_id": "AST-b1ce10959d9c",
+          "control_id": "CTL-08796020fbe4",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-10-20",
+          "evidence_id": "",
+          "owner": "Cloud lead",
+          "remediation": "Assign an accountable owner, record a bounded action, collect evidence and request independent retest.",
+          "risk_id": "RSK-58d80e1cc6cb",
+          "severity": "critical",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "open",
+          "title": "FND-01 Public storage exception lacks sign-off",
+          "vendor_id": "",
+          "id": "FND-c91d02c0fd7b",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739270+00:00",
+          "updated_at": "2026-10-27T00:36:06.739270+00:00"
+        },
+        {
+          "asset_id": "AST-a1fb2cbbb29a",
+          "control_id": "CTL-ee4bc5744662",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-11-03",
+          "evidence_id": "",
+          "owner": "Identity lead",
+          "remediation": "Assign an accountable owner, record a bounded action, collect evidence and request independent retest.",
+          "risk_id": "RSK-047c7bc10d78",
+          "severity": "high",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "in_progress",
+          "title": "FND-02 Dormant privileged account review incomplete",
+          "vendor_id": "",
+          "id": "FND-d9ed82a88ec9",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739270+00:00",
+          "updated_at": "2026-10-27T00:36:06.739270+00:00"
+        },
+        {
+          "asset_id": "AST-b1222d33495f",
+          "control_id": "CTL-5ac39f74b516",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-10-24",
+          "evidence_id": "",
+          "owner": "Engineering lead",
+          "remediation": "Assign an accountable owner, record a bounded action, collect evidence and request independent retest.",
+          "risk_id": "RSK-0ec673c53d45",
+          "severity": "high",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "open",
+          "title": "FND-05 Dependency remediation deadline missed",
+          "vendor_id": "",
+          "id": "FND-e91de13398b3",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739270+00:00",
+          "updated_at": "2026-10-27T00:36:06.739270+00:00"
+        },
+        {
+          "asset_id": "AST-b1222d33495f",
+          "control_id": "CTL-a2746775ef00",
+          "description": "A synthetic audit observation for the Northstar Metrics case study.",
+          "due_date": "2026-10-27",
+          "evidence_id": "EVD-fab9bfd40bb4",
+          "owner": "Engineering lead",
+          "remediation": "Independent reviewer resampled the fictional release records and confirmed approvals preceded deployment.",
+          "risk_id": "RSK-0ec673c53d45",
+          "severity": "low",
+          "source_key": "",
+          "source_updated_at": null,
+          "status": "closed",
+          "title": "FND-07 Change approval sampling exception resolved",
+          "vendor_id": "",
+          "id": "FND-c3a76ca9734d",
+          "version": 1,
+          "created_by": "demo:assurance-analyst",
+          "created_at": "2026-10-27T00:36:06.739793+00:00",
+          "updated_at": "2026-10-27T00:36:06.739793+00:00"
+        }
+      ]
+    },
+    "dashboard": {
+      "as_of": "2026-10-27",
+      "counts": {
+        "risks": 10,
+        "controls": 12,
+        "vendors": 5,
+        "assets": 8,
+        "evidence": 8,
+        "findings": 7
+      },
+      "open_risks": 10,
+      "high_inherent_risks": 8,
+      "unreviewed_residual_risks": 6,
+      "applicable_controls": 12,
+      "evidence_backed_effective_controls": 6,
+      "control_coverage_percent": 50.0,
+      "coverage_note": "Coverage means effective status plus current approved evidence; it is not certification or a compliance percentage.",
+      "stale_effective_control_ids": [],
+      "stale_closed_finding_ids": [],
+      "expired_evidence": 1,
+      "pending_evidence": 2,
+      "open_findings": 6,
+      "overdue_findings": 2,
+      "overdue_risks": 2,
+      "expired_acceptance_ids": [],
+      "vendor_tiers": {
+        "tier_1": 2,
+        "tier_2": 1,
+        "tier_3": 2
+      },
+      "overdue_vendor_reviews": 1,
+      "inherent_heatmap": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "audit_verification": {
+      "valid": true,
+      "count": 64,
+      "head_hash": "b1ec5e12542f5f448fadbee9c02ba94f05f550b310586901b835ce1f08bda429",
+      "limitation": "Requires an external trusted checkpoint to detect truncation or a fully rewritten chain."
+    },
+    "framework_catalog": {
+      "catalog_version": "2026.10.27-2",
+      "checked_on": "2026-10-27",
+      "scope": "A curated publication reference catalog, not an exhaustive list of NIST publications or ISO standards.",
+      "items": [
+        {
+          "id": "nist-csf-2.0",
+          "name": "NIST Cybersecurity Framework",
+          "edition": "2.0 (2024)",
+          "publisher": "NIST",
+          "type": "outcome_framework",
+          "summary": "Organizes cybersecurity outcomes for governance and risk conversations across six functions, with profiles to describe current and desired outcomes.",
+          "applicability": "A flexible reference for organizations that choose it; Harbor does not establish a regulatory obligation or assign implementation tiers.",
+          "source_url": "https://www.nist.gov/cyberframework",
+          "scope": "Selected subcategory identifiers for 12 starter topics; no complete profile or full CSF assessment is supplied.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-37-r2",
+          "name": "NIST Risk Management Framework (SP 800-37)",
+          "edition": "Revision 2 (2018)",
+          "publisher": "NIST",
+          "type": "risk_management_process",
+          "summary": "Connects system preparation, categorization, control work, authorization decisions, and monitoring through a managed lifecycle.",
+          "applicability": "Use when the chosen system and governance context calls for RMF. A Harbor risk acceptance is not a federal authorization to operate.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/37/r2/final",
+          "scope": "Reference guidance only; no RMF task catalog or authorization workflow mapping is included.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-53-r5",
+          "name": "NIST SP 800-53 Security and Privacy Controls",
+          "edition": "Revision 5; Release 5.2.0 (2025)",
+          "publisher": "NIST",
+          "type": "control_catalog",
+          "summary": "Provides selectable security and privacy controls to tailor to system boundaries, organizational needs, and risk decisions.",
+          "applicability": "Selecting references does not establish a baseline, satisfy every control enhancement, or prove a control operates.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+          "scope": "Selected base control identifiers only; no complete catalog, parameters, enhancements, or normative requirements are distributed.",
+          "related_sources": [
+            "https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls"
+          ],
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-53a-r5",
+          "name": "NIST SP 800-53A Control Assessment Procedures",
+          "edition": "Revision 5; Release 5.2.0 (2025)",
+          "publisher": "NIST",
+          "type": "assessment_method",
+          "summary": "Supports planning and executing control assessments, including selection of assessment objects, methods, and sufficient examination depth.",
+          "applicability": "Tailor a competent assessment to its scope and objectives; Harbor evidence approval alone does not execute the published procedures.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/a/r5/final",
+          "scope": "Reference guidance only; no assessment-objective catalog or procedure completion tracking is supplied.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-53b",
+          "name": "NIST SP 800-53B Control Baselines",
+          "edition": "2020; Release 5.2.0 (2025), baselines unchanged",
+          "publisher": "NIST",
+          "type": "baseline_guidance",
+          "summary": "Describes security and privacy starting baselines and tailoring considerations. The 5.2.0 version update did not change its baselines.",
+          "applicability": "Select and tailor a baseline through the applicable system categorization and governance process; the Harbor starter pack is not a baseline.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/b/upd1/final",
+          "scope": "Reference metadata only; no low, moderate, high, or privacy baseline is imported or asserted.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-30-r1",
+          "name": "NIST SP 800-30 Guide for Conducting Risk Assessments",
+          "edition": "Revision 1 (2012)",
+          "publisher": "NIST",
+          "type": "risk_assessment_guidance",
+          "summary": "Guides assessment of threats, vulnerabilities, likelihood, consequences, and uncertainty as inputs to informed risk decisions.",
+          "applicability": "The Harbor 1-5 scoring anchors are project choices, not a NIST-prescribed formula or calibrated probability model.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+          "scope": "Reference guidance only; no claim of completing all assessment activities.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-161-r1",
+          "name": "NIST SP 800-161 Cybersecurity Supply Chain Risk Management",
+          "edition": "Revision 1, Update 1 (2024-11-01)",
+          "publisher": "NIST",
+          "type": "supply_chain_guidance",
+          "summary": "Connects supplier and product risk to organizational strategy, acquisition, operating processes, and continuing oversight.",
+          "applicability": "Adapt to the supplier service, dependencies, information flows, and decision authority. A questionnaire score alone is not supplier assurance.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final",
+          "scope": "Reference guidance only; selected supplier themes also link to SP 800-53 controls, without claiming complete SP 800-161 coverage.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-171-r3",
+          "name": "NIST SP 800-171 Protecting Controlled Unclassified Information",
+          "edition": "Revision 3 (2024)",
+          "publisher": "NIST",
+          "type": "security_requirements",
+          "summary": "Addresses confidentiality protection for controlled unclassified information in scoped nonfederal systems and organizations.",
+          "applicability": "Relevant where the information and applicable contract or agreement establish a CUI requirement. Inclusion does not determine contractual applicability, a mandated revision, CMMC status, or legal compliance.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
+          "scope": "Reference metadata only; no CUI requirement crosswalk, assessment, or compliance determination is supplied.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "nist-sp-800-61-r3",
+          "name": "NIST SP 800-61 Incident Response and CSF Community Profile",
+          "edition": "Revision 3 (2025-04-03)",
+          "publisher": "NIST",
+          "type": "incident_response_guidance",
+          "summary": "Connects incident preparation, coordinated response, recovery, and lessons learned with cybersecurity risk decisions using a CSF 2.0 community profile.",
+          "applicability": "Use to structure the supplier incident exercise and incident-response improvement work. A tabletop is a simulation, not proof of actual response performance.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+          "scope": "Reference guidance only; no complete community profile or incident assessment is imported. Revision 3 supersedes Revision 2.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "iso-iec-27001-2022",
+          "name": "ISO/IEC 27001 Information Security Management Systems",
+          "edition": "2022; Amendment 1:2024",
+          "publisher": "ISO/IEC",
+          "type": "management_system_requirements",
+          "summary": "Sets requirements for an information security management system. The 2024 amendment addresses climate-related considerations in organizational context.",
+          "applicability": "Use an authorized edition and applicable amendment for an ISMS scope, risk treatment, applicability decisions, and conformity assessment.",
+          "source_url": "https://www.iso.org/standard/27001",
+          "scope": "Selected management-clause and Annex A identifiers with original project summaries; no licensed standard text or complete Annex A is reproduced.",
+          "related_sources": [
+            "https://www.iso.org/standard/88435.html"
+          ],
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "iso-iec-27002-2022",
+          "name": "ISO/IEC 27002 Information Security Controls",
+          "edition": "2022 (corrected 2022-03)",
+          "publisher": "ISO/IEC",
+          "type": "control_guidance",
+          "summary": "Offers guidance for selecting and putting information security controls into practice. It supports an ISMS but is not itself a certification standard.",
+          "applicability": "Consult an authorized copy to interpret selected controls in context; a shared identifier is not evidence of effective implementation.",
+          "source_url": "https://www.iso.org/standard/75652.html",
+          "scope": "Selected control identifiers and original topic labels only; no full 93-control inventory, attributes, or guidance text is reproduced.",
+          "checked_on": "2026-10-27"
+        },
+        {
+          "id": "iso-iec-27005-2022",
+          "name": "ISO/IEC 27005 Information Security Risk Management",
+          "edition": "2022",
+          "publisher": "ISO/IEC",
+          "type": "risk_management_guidance",
+          "summary": "Offers guidance for information security risk assessment, treatment, communication, and review in support of management decisions.",
+          "applicability": "Adapt a risk method to the organization and ISMS context; the Harbor score bands are not an ISO-mandated calculation.",
+          "source_url": "https://www.iso.org/standard/80585.html",
+          "scope": "Reference guidance only; no licensed guidance text or claim of complete implementation.",
+          "checked_on": "2026-10-27"
+        }
+      ],
+      "limitations": [
+        "Publication metadata and selected identifiers are informational references, not a compliance decision or certification.",
+        "Mappings are project-authored partial associations. They are not official NIST/ISO mappings, equivalence claims, or complete requirement coverage.",
+        "A local evidence-backed control count does not demonstrate every referenced requirement, an entire assessment period, or an effective management system.",
+        "ISO requirements and implementation guidance must be consulted in an authorized copy. No licensed standard text is bundled.",
+        "Reference-only publications intentionally have no selected control mappings in this pack; zero mapped controls is not an assessment result.",
+        "Sources were checked on the stated date. Revalidate editions, applicability, and source content before organizational adoption."
+      ]
+    },
+    "framework_mappings": {
+      "mapping_version": "2026.10.27-2",
+      "checked_on": "2026-10-27",
+      "scope": "Project-authored partial links for the 12 fictional starter control topics. References are assessment prompts, not satisfaction claims or an official NIST/ISO crosswalk.",
+      "limitations": [
+        "The pack omits most framework content. An unmapped requirement is a scoping gap, not a passed or failed control.",
+        "Selected topics can relate to several requirements while demonstrating only part of each. Assess scope, enhancements, parameters, period and evidence separately.",
+        "ISO identifiers and original topic labels are reference metadata. Validate interpretation against an authorized standard; no licensed requirement or implementation text is included.",
+        "The 2024 amendment to ISO/IEC 27001 is recorded in the publication catalog but is not assessed by these 12 mappings.",
+        "Coverage recognizes these exact reference strings only. Other valid references remain visible as unknown-to-pack entries until explicitly curated."
+      ],
+      "items": [
+        {
+          "control_key": "CTL-01",
+          "title": "Quarterly privileged access review",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 PR.AA-05",
+              "topic": "Quarterly privileged access review",
+              "relationship": "partial",
+              "rationale": "Review the entitlement sample as one input to access-governance outcomes; provisioning, separation of duties and enforcement need broader testing.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 AC-2",
+              "topic": "Identity lifecycle review",
+              "relationship": "partial",
+              "rationale": "The account population and leaver/dormant review address part of lifecycle oversight, without testing every account-management activity.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 AC-6",
+              "topic": "Bounded administrative permissions",
+              "relationship": "partial",
+              "rationale": "Role justification and privilege sampling address least-privilege oversight; technical enforcement and nonhuman identities require separate scope.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.18",
+              "topic": "Entitlement review",
+              "relationship": "partial",
+              "rationale": "The recurring review can support entitlement decisions; joiner, mover, leaver and exception paths still require assessment.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.18",
+              "topic": "Entitlement review",
+              "relationship": "partial",
+              "rationale": "The recurring review can support entitlement decisions; joiner, mover, leaver and exception paths still require assessment.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.2",
+              "topic": "Administrative privilege oversight",
+              "relationship": "partial",
+              "rationale": "Privilege sampling supports oversight of elevated rights; the test does not cover all privileged-use safeguards.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.2",
+              "topic": "Administrative privilege oversight",
+              "relationship": "partial",
+              "rationale": "Privilege sampling supports oversight of elevated rights; the test does not cover all privileged-use safeguards.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-02",
+          "title": "Production storage exposure",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 PR.DS-01",
+              "topic": "Production storage exposure",
+              "relationship": "partial",
+              "rationale": "An unauthorized-read test examines one stored-data exposure path; other confidentiality, integrity and availability protections remain in scope.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 AC-3",
+              "topic": "Stored-data access boundary",
+              "relationship": "partial",
+              "rationale": "Anonymous-read testing examines an access decision on selected storage; other subjects, operations and policy layers need assessment.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SC-28",
+              "topic": "Stored-data safeguards",
+              "relationship": "partial",
+              "rationale": "Exposure review relates to stored-data protection, but it does not establish encryption, key management or all at-rest safeguards.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.3",
+              "topic": "Restricted data access",
+              "relationship": "partial",
+              "rationale": "An anonymous-read test examines one access restriction; authorized workflows and all relevant storage paths need separate testing.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.3",
+              "topic": "Restricted data access",
+              "relationship": "partial",
+              "rationale": "An anonymous-read test examines one access restriction; authorized workflows and all relevant storage paths need separate testing.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.24",
+              "topic": "Cryptographic data protection",
+              "relationship": "partial",
+              "rationale": "Stored-data exposure is related context only; encryption choices, key lifecycle and cryptographic operation are outside this starter test.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.24",
+              "topic": "Cryptographic data protection",
+              "relationship": "partial",
+              "rationale": "Stored-data exposure is related context only; encryption choices, key lifecycle and cryptographic operation are outside this starter test.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-03",
+          "title": "Centralized cloud audit logging",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 DE.CM-09",
+              "topic": "Centralized cloud audit logging",
+              "relationship": "partial",
+              "rationale": "The sample tests visibility from selected cloud activity; detection coverage, alert use and all computing environments need separate assessment.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 AU-2",
+              "topic": "Event-selection coverage",
+              "relationship": "partial",
+              "rationale": "Account and region reconciliation helps examine event coverage; the complete logging-event decision and stakeholder review remain separate.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 AU-6",
+              "topic": "Audit-event review",
+              "relationship": "partial",
+              "rationale": "A usable central destination supports audit review, but the collection test alone does not prove analysis or escalation.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 AU-12",
+              "topic": "Audit-event generation",
+              "relationship": "partial",
+              "rationale": "Tracing a benign event tests generation and delivery for a sample; untested sources and event types remain gaps.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.15",
+              "topic": "Operational event records",
+              "relationship": "partial",
+              "rationale": "An end-to-end event sample examines part of logging; retention, content, access and the full population require assessment.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.15",
+              "topic": "Operational event records",
+              "relationship": "partial",
+              "rationale": "An end-to-end event sample examines part of logging; retention, content, access and the full population require assessment.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.16",
+              "topic": "Monitoring visibility",
+              "relationship": "partial",
+              "rationale": "Delivered logs support monitoring visibility; detection logic, tuning and response to anomalous activity require separate evidence.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.16",
+              "topic": "Monitoring visibility",
+              "relationship": "partial",
+              "rationale": "Delivered logs support monitoring visibility; detection logic, tuning and response to anomalous activity require separate evidence.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-04",
+          "title": "Restore testing",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 RC.RP-03",
+              "topic": "Restore testing",
+              "relationship": "partial",
+              "rationale": "A representative restore provides evidence about recovery data and integrity; all scoped dependencies and recovery decisions still need validation.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 CP-9",
+              "topic": "Backup assurance",
+              "relationship": "partial",
+              "rationale": "A restore sample helps test backup usefulness, without establishing complete backup coverage, protection or scheduling.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 CP-10",
+              "topic": "Recovery execution",
+              "relationship": "partial",
+              "rationale": "A measured restore examines selected recovery steps; full service reconstitution and dependency order require broader exercises.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.13",
+              "topic": "Recoverable backup data",
+              "relationship": "partial",
+              "rationale": "A restore sample supports backup recoverability; the full population, retention, isolation and backup safeguards remain to be assessed.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.13",
+              "topic": "Recoverable backup data",
+              "relationship": "partial",
+              "rationale": "A restore sample supports backup recoverability; the full population, retention, isolation and backup safeguards remain to be assessed.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-05",
+          "title": "Critical vendor due diligence",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 GV.SC-06",
+              "topic": "Critical vendor due diligence",
+              "relationship": "partial",
+              "rationale": "A preapproval supplier review informs third-party risk decisions; ongoing service oversight and supply-chain dependencies remain separate work.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SR-3",
+              "topic": "Supplier risk actions",
+              "relationship": "partial",
+              "rationale": "Preapproval review informs supplier risk actions; full organizational processes and acquisition controls are outside this sample.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SR-6",
+              "topic": "Supplier review evidence",
+              "relationship": "partial",
+              "rationale": "Scope and assurance review support a supplier assessment; recurring review depth and the complete supplier population require a plan.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SA-9",
+              "topic": "External service responsibilities",
+              "relationship": "partial",
+              "rationale": "Service scope and customer responsibilities support external-service oversight; implementation and continuing service monitoring need evidence.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.19",
+              "topic": "Supplier relationship safeguards",
+              "relationship": "partial",
+              "rationale": "Service-specific diligence informs supplier safeguards; the broader lifecycle and all relationships need assessment.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.19",
+              "topic": "Supplier relationship safeguards",
+              "relationship": "partial",
+              "rationale": "Service-specific diligence informs supplier safeguards; the broader lifecycle and all relationships need assessment.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.20",
+              "topic": "Agreed supplier safeguards",
+              "relationship": "partial",
+              "rationale": "Reviewing security terms addresses part of supplier agreements; enforceability and service-specific obligations need specialist review.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.20",
+              "topic": "Agreed supplier safeguards",
+              "relationship": "partial",
+              "rationale": "Reviewing security terms addresses part of supplier agreements; enforceability and service-specific obligations need specialist review.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.23",
+              "topic": "Cloud service lifecycle",
+              "relationship": "partial",
+              "rationale": "Cloud-provider scope and customer duties inform service risk; acquisition, operation, exit and all cloud safeguards remain separate.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.23",
+              "topic": "Cloud service lifecycle",
+              "relationship": "partial",
+              "rationale": "Cloud-provider scope and customer duties inform service risk; acquisition, operation, exit and all cloud safeguards remain separate.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-06",
+          "title": "Supplier incident coordination",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 GV.SC-08",
+              "topic": "Supplier incident coordination",
+              "relationship": "partial",
+              "rationale": "A supplier tabletop examines coordinated response assumptions; production communications, recovery capability and lessons must be validated separately.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 RS.MA-01",
+              "topic": "Declared-incident coordination with suppliers",
+              "relationship": "partial",
+              "rationale": "A joint response exercise can support executing an agreed plan after incident declaration. Test the relevant supplier population, declaration criteria, actual execution and communication paths separately.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 IR-4",
+              "topic": "Incident handling coordination",
+              "relationship": "partial",
+              "rationale": "The scenario exercises selected handling decisions with a supplier; real detection, containment and recovery capabilities are not established.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 IR-8",
+              "topic": "Incident response planning",
+              "relationship": "partial",
+              "rationale": "The exercise can expose planning gaps; complete response plans, resourcing and operational tests require separate review.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SR-8",
+              "topic": "Supplier notification arrangements",
+              "relationship": "partial",
+              "rationale": "Contact and notice checks examine one supplier notification path; complete arrangements and actual execution require separate assessment.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.24",
+              "topic": "Prepared incident coordination",
+              "relationship": "partial",
+              "rationale": "A joint exercise tests selected preparation assumptions; organization-wide roles, plans and tools remain in scope.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.24",
+              "topic": "Prepared incident coordination",
+              "relationship": "partial",
+              "rationale": "A joint exercise tests selected preparation assumptions; organization-wide roles, plans and tools remain in scope.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.26",
+              "topic": "Coordinated incident action",
+              "relationship": "partial",
+              "rationale": "A tabletop examines response decisions; demonstrated technical action and event-specific response capability require other evidence.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.26",
+              "topic": "Coordinated incident action",
+              "relationship": "partial",
+              "rationale": "A tabletop examines response decisions; demonstrated technical action and event-specific response capability require other evidence.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-07",
+          "title": "Risk decisions and exceptions",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 GV.RM-02",
+              "topic": "Risk decisions and exceptions",
+              "relationship": "partial",
+              "rationale": "Bounded exceptions record one part of risk appetite and tolerance decisions; strategy, criteria and governance authority need separate approval.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 RA-3",
+              "topic": "Documented risk assessment",
+              "relationship": "partial",
+              "rationale": "Acceptance rationale should refer to an assessed scenario; this decision record alone does not complete a risk assessment.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 PM-9",
+              "topic": "Organizational risk approach",
+              "relationship": "partial",
+              "rationale": "Exception authority and expiry can support risk strategy execution; the organization-wide strategy and criteria require separate evidence.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 clause 6.1.2",
+              "topic": "Consistent risk assessment method",
+              "relationship": "partial",
+              "rationale": "Recorded assessment reasons relate to the risk method; complete criteria, repeatability and all in-scope risks require review.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 clause 6.1.3",
+              "topic": "Risk treatment decisions",
+              "relationship": "partial",
+              "rationale": "A bounded acceptance documents one treatment decision; treatment selection, applicability records and full implementation remain separate.",
+              "source_url": "https://www.iso.org/standard/27001"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-08",
+          "title": "Vulnerability remediation",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 ID.RA-01",
+              "topic": "Vulnerability remediation",
+              "relationship": "partial",
+              "rationale": "Inventory reconciliation and retesting address selected vulnerability identification; the full asset population and other assessment methods need review.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 RA-5",
+              "topic": "Vulnerability observation coverage",
+              "relationship": "partial",
+              "rationale": "Scanner reconciliation and retest support vulnerability monitoring; authenticated scope, tool coverage and assessment depth need validation.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SI-2",
+              "topic": "Verified issue correction",
+              "relationship": "partial",
+              "rationale": "Remediation and retest address selected flaws; update integrity, testing, deployment safeguards and systemic correction require additional assessment.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.8",
+              "topic": "Technical weakness management",
+              "relationship": "partial",
+              "rationale": "Tracked findings and retesting support vulnerability handling; discovery coverage, prioritization and preventive measures require broader evidence.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.8",
+              "topic": "Technical weakness management",
+              "relationship": "partial",
+              "rationale": "Tracked findings and retesting support vulnerability handling; discovery coverage, prioritization and preventive measures require broader evidence.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-09",
+          "title": "Managed workforce authentication",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 PR.AA-03",
+              "topic": "Managed workforce authentication",
+              "relationship": "partial",
+              "rationale": "Authentication-path samples test selected identity safeguards; device, service and recovery-path coverage need separate confirmation.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 IA-2",
+              "topic": "Workforce authentication paths",
+              "relationship": "partial",
+              "rationale": "MFA and identity-path samples examine workforce authentication; every applicable access path and identity population must be scoped.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 IA-5",
+              "topic": "Authenticator lifecycle",
+              "relationship": "partial",
+              "rationale": "Recovery and emergency-access tests touch authenticator handling; issuance, storage, rotation and revocation require additional evidence.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.5",
+              "topic": "Authentication safeguards",
+              "relationship": "partial",
+              "rationale": "Path and recovery samples support authentication assurance; all interfaces, authenticator handling and failure cases remain in scope.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.5",
+              "topic": "Authentication safeguards",
+              "relationship": "partial",
+              "rationale": "Path and recovery samples support authentication assurance; all interfaces, authenticator handling and failure cases remain in scope.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-10",
+          "title": "Data retention and deletion",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 PR.DS-01",
+              "topic": "Data retention and deletion",
+              "relationship": "partial",
+              "rationale": "A deletion trace relates to stored-data lifecycle protection; retention authority, integrity, availability and remaining copies need assessment.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 SI-12",
+              "topic": "Retention and lifecycle handling",
+              "relationship": "partial",
+              "rationale": "Tracing approved deletion examines one lifecycle action; retention rules, disposal authority and the full information population require review.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 MP-6",
+              "topic": "Sanitization and disposal",
+              "relationship": "partial",
+              "rationale": "Logical deletion is related to disposal objectives but does not establish media sanitization, reuse handling or physical destruction.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.5.33",
+              "topic": "Required record protection",
+              "relationship": "partial",
+              "rationale": "Retention and deletion decisions affect record protection; authorized retention, integrity and availability obligations must be assessed separately.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 5.33",
+              "topic": "Required record protection",
+              "relationship": "partial",
+              "rationale": "Retention and deletion decisions affect record protection; authorized retention, integrity and availability obligations must be assessed separately.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.10",
+              "topic": "Verified information deletion",
+              "relationship": "partial",
+              "rationale": "A trace through selected processors supports deletion assurance; all copies, exceptions and backup expiry remain in scope.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.10",
+              "topic": "Verified information deletion",
+              "relationship": "partial",
+              "rationale": "A trace through selected processors supports deletion assurance; all copies, exceptions and backup expiry remain in scope.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-11",
+          "title": "Production change authorization",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 PR.PS-01",
+              "topic": "Production change authorization",
+              "relationship": "partial",
+              "rationale": "Release sampling examines part of configuration management; the full lifecycle, baseline integrity and emergency paths require separate review.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 CM-3",
+              "topic": "Controlled production changes",
+              "relationship": "partial",
+              "rationale": "Approval and rollback samples examine selected change decisions; impact assessment, complete populations and emergency changes need review.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 CM-5",
+              "topic": "Authorized change access",
+              "relationship": "partial",
+              "rationale": "Deployment identity review addresses one change-access boundary; all privileged change paths and enforcement require separate testing.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 A.8.32",
+              "topic": "Managed production changes",
+              "relationship": "partial",
+              "rationale": "Release samples support change governance; complete change populations, impact review and emergency procedures remain separate work.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27002-2022",
+              "reference": "ISO/IEC 27002:2022 8.32",
+              "topic": "Managed production changes",
+              "relationship": "partial",
+              "rationale": "Release samples support change governance; complete change populations, impact review and emergency procedures remain separate work.",
+              "source_url": "https://www.iso.org/standard/75652.html"
+            }
+          ]
+        },
+        {
+          "control_key": "CTL-12",
+          "title": "Security program oversight",
+          "links": [
+            {
+              "framework_id": "nist-csf-2.0",
+              "reference": "NIST CSF 2.0 GV.OV-01",
+              "topic": "Security program oversight",
+              "relationship": "partial",
+              "rationale": "Committee review examines selected oversight decisions; organizational objectives, risk strategy and resulting policy changes need broader evidence.",
+              "source_url": "https://www.nist.gov/cyberframework"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 PM-1",
+              "topic": "Security program governance",
+              "relationship": "partial",
+              "rationale": "Committee decisions may support program operation; the complete program plan, assigned responsibilities and resourcing require separate assessment.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 PM-9",
+              "topic": "Risk strategy oversight",
+              "relationship": "partial",
+              "rationale": "Escalated risk and appetite decisions can inform strategy review; approved organization-wide criteria and implementation remain separate.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "nist-sp-800-53-r5",
+              "reference": "NIST SP 800-53 Rev. 5 CA-7",
+              "topic": "Continuing control oversight",
+              "relationship": "partial",
+              "rationale": "Review of evidence gaps and overdue actions supports monitoring governance; a complete monitoring strategy and operating results need assessment.",
+              "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 clause 9.1",
+              "topic": "Performance and assurance review",
+              "relationship": "partial",
+              "rationale": "Metrics and overdue actions inform performance evaluation; suitable methods, reliable measurements and complete analysis require separate evidence.",
+              "source_url": "https://www.iso.org/standard/27001"
+            },
+            {
+              "framework_id": "iso-iec-27001-2022",
+              "reference": "ISO/IEC 27001:2022 clause 9.3",
+              "topic": "Management review decisions",
+              "relationship": "partial",
+              "rationale": "Committee records can support review evidence; required inputs, decision authority, outputs and follow-through need an ISMS-specific assessment.",
+              "source_url": "https://www.iso.org/standard/27001"
+            }
+          ]
+        }
+      ]
+    },
+    "framework_coverage": {
+      "as_of": "2026-10-27",
+      "local_control_count": 12,
+      "items": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "mapped_controls": 12,
+          "evidence_backed_controls": 6
+        },
+        {
+          "framework_id": "nist-sp-800-37-r2",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "mapped_controls": 12,
+          "evidence_backed_controls": 6
+        },
+        {
+          "framework_id": "nist-sp-800-53a-r5",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "nist-sp-800-53b",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "nist-sp-800-30-r1",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "nist-sp-800-161-r1",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "nist-sp-800-171-r3",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "nist-sp-800-61-r3",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "mapped_controls": 12,
+          "evidence_backed_controls": 6
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "mapped_controls": 10,
+          "evidence_backed_controls": 5
+        },
+        {
+          "framework_id": "iso-iec-27005-2022",
+          "mapped_controls": 0,
+          "evidence_backed_controls": 0
+        }
+      ],
+      "unknown_references": [],
+      "scope": "Counts cover distinct local controls with exact reference strings recognized by the bundled partial mapping pack. Evidence-backed means effective status plus current approved evidence within the control's test cadence. Counts do not measure full-framework coverage, conformance, certification, or equivalence. An unknown reference is outside this curated pack, not necessarily invalid."
+    }
+  }
+}

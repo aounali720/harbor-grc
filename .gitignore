@@ -1,0 +1,32 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+/data/
+*.db
+*.db-*
+*.sqlite*
+.env
+.env.*
+!.env.example
+reports/
+backups/
+
+
+# Local authoring, test state, previews, and release archives
+work/
+outputs/
+
+# Local diagnostics and credential material
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+/credentials/
+/secrets/

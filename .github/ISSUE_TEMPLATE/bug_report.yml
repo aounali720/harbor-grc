@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem using synthetic data.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a security issue, follow SECURITY.md. Keep credentials, database files,
+        private evidence and customer information out of public reports.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the workflow you were trying to complete and what stopped you.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Use fictional records and remove sensitive identifiers.
+      placeholder: |
+        1. Start with an empty demo workspace.
+        2. Open ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, browser and project version.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Relevant error
+      description: Paste the error text after removing credentials and private paths.
+

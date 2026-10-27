@@ -1,0 +1,165 @@
+{
+  "catalog_version": "2026.10.27-2",
+  "checked_on": "2026-10-27",
+  "scope": "A curated publication reference catalog, not an exhaustive list of NIST publications or ISO standards.",
+  "items": [
+    {
+      "id": "nist-csf-2.0",
+      "name": "NIST Cybersecurity Framework",
+      "edition": "2.0 (2024)",
+      "publisher": "NIST",
+      "type": "outcome_framework",
+      "summary": "Organizes cybersecurity outcomes for governance and risk conversations across six functions, with profiles to describe current and desired outcomes.",
+      "applicability": "A flexible reference for organizations that choose it; Harbor does not establish a regulatory obligation or assign implementation tiers.",
+      "source_url": "https://www.nist.gov/cyberframework",
+      "scope": "Selected subcategory identifiers for 12 starter topics; no complete profile or full CSF assessment is supplied.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-37-r2",
+      "name": "NIST Risk Management Framework (SP 800-37)",
+      "edition": "Revision 2 (2018)",
+      "publisher": "NIST",
+      "type": "risk_management_process",
+      "summary": "Connects system preparation, categorization, control work, authorization decisions, and monitoring through a managed lifecycle.",
+      "applicability": "Use when the chosen system and governance context calls for RMF. A Harbor risk acceptance is not a federal authorization to operate.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/37/r2/final",
+      "scope": "Reference guidance only; no RMF task catalog or authorization workflow mapping is included.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-53-r5",
+      "name": "NIST SP 800-53 Security and Privacy Controls",
+      "edition": "Revision 5; Release 5.2.0 (2025)",
+      "publisher": "NIST",
+      "type": "control_catalog",
+      "summary": "Provides selectable security and privacy controls to tailor to system boundaries, organizational needs, and risk decisions.",
+      "applicability": "Selecting references does not establish a baseline, satisfy every control enhancement, or prove a control operates.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "scope": "Selected base control identifiers only; no complete catalog, parameters, enhancements, or normative requirements are distributed.",
+      "related_sources": [
+        "https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls"
+      ],
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-53a-r5",
+      "name": "NIST SP 800-53A Control Assessment Procedures",
+      "edition": "Revision 5; Release 5.2.0 (2025)",
+      "publisher": "NIST",
+      "type": "assessment_method",
+      "summary": "Supports planning and executing control assessments, including selection of assessment objects, methods, and sufficient examination depth.",
+      "applicability": "Tailor a competent assessment to its scope and objectives; Harbor evidence approval alone does not execute the published procedures.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/53/a/r5/final",
+      "scope": "Reference guidance only; no assessment-objective catalog or procedure completion tracking is supplied.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-53b",
+      "name": "NIST SP 800-53B Control Baselines",
+      "edition": "2020; Release 5.2.0 (2025), baselines unchanged",
+      "publisher": "NIST",
+      "type": "baseline_guidance",
+      "summary": "Describes security and privacy starting baselines and tailoring considerations. The 5.2.0 version update did not change its baselines.",
+      "applicability": "Select and tailor a baseline through the applicable system categorization and governance process; the Harbor starter pack is not a baseline.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/53/b/upd1/final",
+      "scope": "Reference metadata only; no low, moderate, high, or privacy baseline is imported or asserted.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-30-r1",
+      "name": "NIST SP 800-30 Guide for Conducting Risk Assessments",
+      "edition": "Revision 1 (2012)",
+      "publisher": "NIST",
+      "type": "risk_assessment_guidance",
+      "summary": "Guides assessment of threats, vulnerabilities, likelihood, consequences, and uncertainty as inputs to informed risk decisions.",
+      "applicability": "The Harbor 1-5 scoring anchors are project choices, not a NIST-prescribed formula or calibrated probability model.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+      "scope": "Reference guidance only; no claim of completing all assessment activities.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-161-r1",
+      "name": "NIST SP 800-161 Cybersecurity Supply Chain Risk Management",
+      "edition": "Revision 1, Update 1 (2024-11-01)",
+      "publisher": "NIST",
+      "type": "supply_chain_guidance",
+      "summary": "Connects supplier and product risk to organizational strategy, acquisition, operating processes, and continuing oversight.",
+      "applicability": "Adapt to the supplier service, dependencies, information flows, and decision authority. A questionnaire score alone is not supplier assurance.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final",
+      "scope": "Reference guidance only; selected supplier themes also link to SP 800-53 controls, without claiming complete SP 800-161 coverage.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-171-r3",
+      "name": "NIST SP 800-171 Protecting Controlled Unclassified Information",
+      "edition": "Revision 3 (2024)",
+      "publisher": "NIST",
+      "type": "security_requirements",
+      "summary": "Addresses confidentiality protection for controlled unclassified information in scoped nonfederal systems and organizations.",
+      "applicability": "Relevant where the information and applicable contract or agreement establish a CUI requirement. Inclusion does not determine contractual applicability, a mandated revision, CMMC status, or legal compliance.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
+      "scope": "Reference metadata only; no CUI requirement crosswalk, assessment, or compliance determination is supplied.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "nist-sp-800-61-r3",
+      "name": "NIST SP 800-61 Incident Response and CSF Community Profile",
+      "edition": "Revision 3 (2025-04-03)",
+      "publisher": "NIST",
+      "type": "incident_response_guidance",
+      "summary": "Connects incident preparation, coordinated response, recovery, and lessons learned with cybersecurity risk decisions using a CSF 2.0 community profile.",
+      "applicability": "Use to structure the supplier incident exercise and incident-response improvement work. A tabletop is a simulation, not proof of actual response performance.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "scope": "Reference guidance only; no complete community profile or incident assessment is imported. Revision 3 supersedes Revision 2.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "iso-iec-27001-2022",
+      "name": "ISO/IEC 27001 Information Security Management Systems",
+      "edition": "2022; Amendment 1:2024",
+      "publisher": "ISO/IEC",
+      "type": "management_system_requirements",
+      "summary": "Sets requirements for an information security management system. The 2024 amendment addresses climate-related considerations in organizational context.",
+      "applicability": "Use an authorized edition and applicable amendment for an ISMS scope, risk treatment, applicability decisions, and conformity assessment.",
+      "source_url": "https://www.iso.org/standard/27001",
+      "scope": "Selected management-clause and Annex A identifiers with original project summaries; no licensed standard text or complete Annex A is reproduced.",
+      "related_sources": [
+        "https://www.iso.org/standard/88435.html"
+      ],
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "iso-iec-27002-2022",
+      "name": "ISO/IEC 27002 Information Security Controls",
+      "edition": "2022 (corrected 2022-03)",
+      "publisher": "ISO/IEC",
+      "type": "control_guidance",
+      "summary": "Offers guidance for selecting and putting information security controls into practice. It supports an ISMS but is not itself a certification standard.",
+      "applicability": "Consult an authorized copy to interpret selected controls in context; a shared identifier is not evidence of effective implementation.",
+      "source_url": "https://www.iso.org/standard/75652.html",
+      "scope": "Selected control identifiers and original topic labels only; no full 93-control inventory, attributes, or guidance text is reproduced.",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "id": "iso-iec-27005-2022",
+      "name": "ISO/IEC 27005 Information Security Risk Management",
+      "edition": "2022",
+      "publisher": "ISO/IEC",
+      "type": "risk_management_guidance",
+      "summary": "Offers guidance for information security risk assessment, treatment, communication, and review in support of management decisions.",
+      "applicability": "Adapt a risk method to the organization and ISMS context; the Harbor score bands are not an ISO-mandated calculation.",
+      "source_url": "https://www.iso.org/standard/80585.html",
+      "scope": "Reference guidance only; no licensed guidance text or claim of complete implementation.",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "limitations": [
+    "Publication metadata and selected identifiers are informational references, not a compliance decision or certification.",
+    "Mappings are project-authored partial associations. They are not official NIST/ISO mappings, equivalence claims, or complete requirement coverage.",
+    "A local evidence-backed control count does not demonstrate every referenced requirement, an entire assessment period, or an effective management system.",
+    "ISO requirements and implementation guidance must be consulted in an authorized copy. No licensed standard text is bundled.",
+    "Reference-only publications intentionally have no selected control mappings in this pack; zero mapped controls is not an assessment result.",
+    "Sources were checked on the stated date. Revalidate editions, applicability, and source content before organizational adoption."
+  ]
+}

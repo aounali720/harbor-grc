@@ -1,0 +1,13 @@
+include LICENSE README.md SECURITY.md CONTRIBUTING.md CHANGELOG.md ROADMAP.md .gitattributes .gitignore .env.example
+include requirements.lock requirements-dev.lock Dockerfile compose.yaml
+recursive-include docs *.md *.json *.png *.jpg *.jpeg
+recursive-include templates *.md
+recursive-include sample-data *.json
+recursive-include deploy *
+recursive-include .github *.yml
+recursive-include harbor_grc/static *
+
+
+recursive-include harbor_grc/data *.json
+
+

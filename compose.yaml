@@ -1,0 +1,26 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      GRC_ENV: production
+      GRC_ORIGIN: ${GRC_ORIGIN:?Set the exact HTTPS origin}
+      GRC_DATABASE: /data/harbor.db
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - grc-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=32m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 768m
+    cpus: 1.0
+    pids_limit: 100
+
+volumes:
+  grc-data:
+

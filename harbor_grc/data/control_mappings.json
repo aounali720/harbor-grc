@@ -1,0 +1,718 @@
+{
+  "mapping_version": "2026.10.27-2",
+  "checked_on": "2026-10-27",
+  "scope": "Project-authored partial links for the 12 fictional starter control topics. References are assessment prompts, not satisfaction claims or an official NIST/ISO crosswalk.",
+  "limitations": [
+    "The pack omits most framework content. An unmapped requirement is a scoping gap, not a passed or failed control.",
+    "Selected topics can relate to several requirements while demonstrating only part of each. Assess scope, enhancements, parameters, period and evidence separately.",
+    "ISO identifiers and original topic labels are reference metadata. Validate interpretation against an authorized standard; no licensed requirement or implementation text is included.",
+    "The 2024 amendment to ISO/IEC 27001 is recorded in the publication catalog but is not assessed by these 12 mappings.",
+    "Coverage recognizes these exact reference strings only. Other valid references remain visible as unknown-to-pack entries until explicitly curated."
+  ],
+  "items": [
+    {
+      "control_key": "CTL-01",
+      "title": "Quarterly privileged access review",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 PR.AA-05",
+          "topic": "Quarterly privileged access review",
+          "relationship": "partial",
+          "rationale": "Review the entitlement sample as one input to access-governance outcomes; provisioning, separation of duties and enforcement need broader testing.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 AC-2",
+          "topic": "Identity lifecycle review",
+          "relationship": "partial",
+          "rationale": "The account population and leaver/dormant review address part of lifecycle oversight, without testing every account-management activity.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 AC-6",
+          "topic": "Bounded administrative permissions",
+          "relationship": "partial",
+          "rationale": "Role justification and privilege sampling address least-privilege oversight; technical enforcement and nonhuman identities require separate scope.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.18",
+          "topic": "Entitlement review",
+          "relationship": "partial",
+          "rationale": "The recurring review can support entitlement decisions; joiner, mover, leaver and exception paths still require assessment.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.18",
+          "topic": "Entitlement review",
+          "relationship": "partial",
+          "rationale": "The recurring review can support entitlement decisions; joiner, mover, leaver and exception paths still require assessment.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.2",
+          "topic": "Administrative privilege oversight",
+          "relationship": "partial",
+          "rationale": "Privilege sampling supports oversight of elevated rights; the test does not cover all privileged-use safeguards.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.2",
+          "topic": "Administrative privilege oversight",
+          "relationship": "partial",
+          "rationale": "Privilege sampling supports oversight of elevated rights; the test does not cover all privileged-use safeguards.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-02",
+      "title": "Production storage exposure",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 PR.DS-01",
+          "topic": "Production storage exposure",
+          "relationship": "partial",
+          "rationale": "An unauthorized-read test examines one stored-data exposure path; other confidentiality, integrity and availability protections remain in scope.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 AC-3",
+          "topic": "Stored-data access boundary",
+          "relationship": "partial",
+          "rationale": "Anonymous-read testing examines an access decision on selected storage; other subjects, operations and policy layers need assessment.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SC-28",
+          "topic": "Stored-data safeguards",
+          "relationship": "partial",
+          "rationale": "Exposure review relates to stored-data protection, but it does not establish encryption, key management or all at-rest safeguards.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.3",
+          "topic": "Restricted data access",
+          "relationship": "partial",
+          "rationale": "An anonymous-read test examines one access restriction; authorized workflows and all relevant storage paths need separate testing.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.3",
+          "topic": "Restricted data access",
+          "relationship": "partial",
+          "rationale": "An anonymous-read test examines one access restriction; authorized workflows and all relevant storage paths need separate testing.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.24",
+          "topic": "Cryptographic data protection",
+          "relationship": "partial",
+          "rationale": "Stored-data exposure is related context only; encryption choices, key lifecycle and cryptographic operation are outside this starter test.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.24",
+          "topic": "Cryptographic data protection",
+          "relationship": "partial",
+          "rationale": "Stored-data exposure is related context only; encryption choices, key lifecycle and cryptographic operation are outside this starter test.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-03",
+      "title": "Centralized cloud audit logging",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 DE.CM-09",
+          "topic": "Centralized cloud audit logging",
+          "relationship": "partial",
+          "rationale": "The sample tests visibility from selected cloud activity; detection coverage, alert use and all computing environments need separate assessment.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 AU-2",
+          "topic": "Event-selection coverage",
+          "relationship": "partial",
+          "rationale": "Account and region reconciliation helps examine event coverage; the complete logging-event decision and stakeholder review remain separate.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 AU-6",
+          "topic": "Audit-event review",
+          "relationship": "partial",
+          "rationale": "A usable central destination supports audit review, but the collection test alone does not prove analysis or escalation.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 AU-12",
+          "topic": "Audit-event generation",
+          "relationship": "partial",
+          "rationale": "Tracing a benign event tests generation and delivery for a sample; untested sources and event types remain gaps.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.15",
+          "topic": "Operational event records",
+          "relationship": "partial",
+          "rationale": "An end-to-end event sample examines part of logging; retention, content, access and the full population require assessment.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.15",
+          "topic": "Operational event records",
+          "relationship": "partial",
+          "rationale": "An end-to-end event sample examines part of logging; retention, content, access and the full population require assessment.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.16",
+          "topic": "Monitoring visibility",
+          "relationship": "partial",
+          "rationale": "Delivered logs support monitoring visibility; detection logic, tuning and response to anomalous activity require separate evidence.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.16",
+          "topic": "Monitoring visibility",
+          "relationship": "partial",
+          "rationale": "Delivered logs support monitoring visibility; detection logic, tuning and response to anomalous activity require separate evidence.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-04",
+      "title": "Restore testing",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 RC.RP-03",
+          "topic": "Restore testing",
+          "relationship": "partial",
+          "rationale": "A representative restore provides evidence about recovery data and integrity; all scoped dependencies and recovery decisions still need validation.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 CP-9",
+          "topic": "Backup assurance",
+          "relationship": "partial",
+          "rationale": "A restore sample helps test backup usefulness, without establishing complete backup coverage, protection or scheduling.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 CP-10",
+          "topic": "Recovery execution",
+          "relationship": "partial",
+          "rationale": "A measured restore examines selected recovery steps; full service reconstitution and dependency order require broader exercises.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.13",
+          "topic": "Recoverable backup data",
+          "relationship": "partial",
+          "rationale": "A restore sample supports backup recoverability; the full population, retention, isolation and backup safeguards remain to be assessed.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.13",
+          "topic": "Recoverable backup data",
+          "relationship": "partial",
+          "rationale": "A restore sample supports backup recoverability; the full population, retention, isolation and backup safeguards remain to be assessed.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-05",
+      "title": "Critical vendor due diligence",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 GV.SC-06",
+          "topic": "Critical vendor due diligence",
+          "relationship": "partial",
+          "rationale": "A preapproval supplier review informs third-party risk decisions; ongoing service oversight and supply-chain dependencies remain separate work.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SR-3",
+          "topic": "Supplier risk actions",
+          "relationship": "partial",
+          "rationale": "Preapproval review informs supplier risk actions; full organizational processes and acquisition controls are outside this sample.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SR-6",
+          "topic": "Supplier review evidence",
+          "relationship": "partial",
+          "rationale": "Scope and assurance review support a supplier assessment; recurring review depth and the complete supplier population require a plan.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SA-9",
+          "topic": "External service responsibilities",
+          "relationship": "partial",
+          "rationale": "Service scope and customer responsibilities support external-service oversight; implementation and continuing service monitoring need evidence.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.19",
+          "topic": "Supplier relationship safeguards",
+          "relationship": "partial",
+          "rationale": "Service-specific diligence informs supplier safeguards; the broader lifecycle and all relationships need assessment.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.19",
+          "topic": "Supplier relationship safeguards",
+          "relationship": "partial",
+          "rationale": "Service-specific diligence informs supplier safeguards; the broader lifecycle and all relationships need assessment.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.20",
+          "topic": "Agreed supplier safeguards",
+          "relationship": "partial",
+          "rationale": "Reviewing security terms addresses part of supplier agreements; enforceability and service-specific obligations need specialist review.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.20",
+          "topic": "Agreed supplier safeguards",
+          "relationship": "partial",
+          "rationale": "Reviewing security terms addresses part of supplier agreements; enforceability and service-specific obligations need specialist review.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.23",
+          "topic": "Cloud service lifecycle",
+          "relationship": "partial",
+          "rationale": "Cloud-provider scope and customer duties inform service risk; acquisition, operation, exit and all cloud safeguards remain separate.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.23",
+          "topic": "Cloud service lifecycle",
+          "relationship": "partial",
+          "rationale": "Cloud-provider scope and customer duties inform service risk; acquisition, operation, exit and all cloud safeguards remain separate.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-06",
+      "title": "Supplier incident coordination",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 GV.SC-08",
+          "topic": "Supplier incident coordination",
+          "relationship": "partial",
+          "rationale": "A supplier tabletop examines coordinated response assumptions; production communications, recovery capability and lessons must be validated separately.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 RS.MA-01",
+          "topic": "Declared-incident coordination with suppliers",
+          "relationship": "partial",
+          "rationale": "A joint response exercise can support executing an agreed plan after incident declaration. Test the relevant supplier population, declaration criteria, actual execution and communication paths separately.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 IR-4",
+          "topic": "Incident handling coordination",
+          "relationship": "partial",
+          "rationale": "The scenario exercises selected handling decisions with a supplier; real detection, containment and recovery capabilities are not established.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 IR-8",
+          "topic": "Incident response planning",
+          "relationship": "partial",
+          "rationale": "The exercise can expose planning gaps; complete response plans, resourcing and operational tests require separate review.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SR-8",
+          "topic": "Supplier notification arrangements",
+          "relationship": "partial",
+          "rationale": "Contact and notice checks examine one supplier notification path; complete arrangements and actual execution require separate assessment.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.24",
+          "topic": "Prepared incident coordination",
+          "relationship": "partial",
+          "rationale": "A joint exercise tests selected preparation assumptions; organization-wide roles, plans and tools remain in scope.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.24",
+          "topic": "Prepared incident coordination",
+          "relationship": "partial",
+          "rationale": "A joint exercise tests selected preparation assumptions; organization-wide roles, plans and tools remain in scope.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.26",
+          "topic": "Coordinated incident action",
+          "relationship": "partial",
+          "rationale": "A tabletop examines response decisions; demonstrated technical action and event-specific response capability require other evidence.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.26",
+          "topic": "Coordinated incident action",
+          "relationship": "partial",
+          "rationale": "A tabletop examines response decisions; demonstrated technical action and event-specific response capability require other evidence.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-07",
+      "title": "Risk decisions and exceptions",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 GV.RM-02",
+          "topic": "Risk decisions and exceptions",
+          "relationship": "partial",
+          "rationale": "Bounded exceptions record one part of risk appetite and tolerance decisions; strategy, criteria and governance authority need separate approval.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 RA-3",
+          "topic": "Documented risk assessment",
+          "relationship": "partial",
+          "rationale": "Acceptance rationale should refer to an assessed scenario; this decision record alone does not complete a risk assessment.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 PM-9",
+          "topic": "Organizational risk approach",
+          "relationship": "partial",
+          "rationale": "Exception authority and expiry can support risk strategy execution; the organization-wide strategy and criteria require separate evidence.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 clause 6.1.2",
+          "topic": "Consistent risk assessment method",
+          "relationship": "partial",
+          "rationale": "Recorded assessment reasons relate to the risk method; complete criteria, repeatability and all in-scope risks require review.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 clause 6.1.3",
+          "topic": "Risk treatment decisions",
+          "relationship": "partial",
+          "rationale": "A bounded acceptance documents one treatment decision; treatment selection, applicability records and full implementation remain separate.",
+          "source_url": "https://www.iso.org/standard/27001"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-08",
+      "title": "Vulnerability remediation",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 ID.RA-01",
+          "topic": "Vulnerability remediation",
+          "relationship": "partial",
+          "rationale": "Inventory reconciliation and retesting address selected vulnerability identification; the full asset population and other assessment methods need review.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 RA-5",
+          "topic": "Vulnerability observation coverage",
+          "relationship": "partial",
+          "rationale": "Scanner reconciliation and retest support vulnerability monitoring; authenticated scope, tool coverage and assessment depth need validation.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SI-2",
+          "topic": "Verified issue correction",
+          "relationship": "partial",
+          "rationale": "Remediation and retest address selected flaws; update integrity, testing, deployment safeguards and systemic correction require additional assessment.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.8",
+          "topic": "Technical weakness management",
+          "relationship": "partial",
+          "rationale": "Tracked findings and retesting support vulnerability handling; discovery coverage, prioritization and preventive measures require broader evidence.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.8",
+          "topic": "Technical weakness management",
+          "relationship": "partial",
+          "rationale": "Tracked findings and retesting support vulnerability handling; discovery coverage, prioritization and preventive measures require broader evidence.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-09",
+      "title": "Managed workforce authentication",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 PR.AA-03",
+          "topic": "Managed workforce authentication",
+          "relationship": "partial",
+          "rationale": "Authentication-path samples test selected identity safeguards; device, service and recovery-path coverage need separate confirmation.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 IA-2",
+          "topic": "Workforce authentication paths",
+          "relationship": "partial",
+          "rationale": "MFA and identity-path samples examine workforce authentication; every applicable access path and identity population must be scoped.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 IA-5",
+          "topic": "Authenticator lifecycle",
+          "relationship": "partial",
+          "rationale": "Recovery and emergency-access tests touch authenticator handling; issuance, storage, rotation and revocation require additional evidence.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.5",
+          "topic": "Authentication safeguards",
+          "relationship": "partial",
+          "rationale": "Path and recovery samples support authentication assurance; all interfaces, authenticator handling and failure cases remain in scope.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.5",
+          "topic": "Authentication safeguards",
+          "relationship": "partial",
+          "rationale": "Path and recovery samples support authentication assurance; all interfaces, authenticator handling and failure cases remain in scope.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-10",
+      "title": "Data retention and deletion",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 PR.DS-01",
+          "topic": "Data retention and deletion",
+          "relationship": "partial",
+          "rationale": "A deletion trace relates to stored-data lifecycle protection; retention authority, integrity, availability and remaining copies need assessment.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 SI-12",
+          "topic": "Retention and lifecycle handling",
+          "relationship": "partial",
+          "rationale": "Tracing approved deletion examines one lifecycle action; retention rules, disposal authority and the full information population require review.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 MP-6",
+          "topic": "Sanitization and disposal",
+          "relationship": "partial",
+          "rationale": "Logical deletion is related to disposal objectives but does not establish media sanitization, reuse handling or physical destruction.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.5.33",
+          "topic": "Required record protection",
+          "relationship": "partial",
+          "rationale": "Retention and deletion decisions affect record protection; authorized retention, integrity and availability obligations must be assessed separately.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 5.33",
+          "topic": "Required record protection",
+          "relationship": "partial",
+          "rationale": "Retention and deletion decisions affect record protection; authorized retention, integrity and availability obligations must be assessed separately.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.10",
+          "topic": "Verified information deletion",
+          "relationship": "partial",
+          "rationale": "A trace through selected processors supports deletion assurance; all copies, exceptions and backup expiry remain in scope.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.10",
+          "topic": "Verified information deletion",
+          "relationship": "partial",
+          "rationale": "A trace through selected processors supports deletion assurance; all copies, exceptions and backup expiry remain in scope.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-11",
+      "title": "Production change authorization",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 PR.PS-01",
+          "topic": "Production change authorization",
+          "relationship": "partial",
+          "rationale": "Release sampling examines part of configuration management; the full lifecycle, baseline integrity and emergency paths require separate review.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 CM-3",
+          "topic": "Controlled production changes",
+          "relationship": "partial",
+          "rationale": "Approval and rollback samples examine selected change decisions; impact assessment, complete populations and emergency changes need review.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 CM-5",
+          "topic": "Authorized change access",
+          "relationship": "partial",
+          "rationale": "Deployment identity review addresses one change-access boundary; all privileged change paths and enforcement require separate testing.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 A.8.32",
+          "topic": "Managed production changes",
+          "relationship": "partial",
+          "rationale": "Release samples support change governance; complete change populations, impact review and emergency procedures remain separate work.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27002-2022",
+          "reference": "ISO/IEC 27002:2022 8.32",
+          "topic": "Managed production changes",
+          "relationship": "partial",
+          "rationale": "Release samples support change governance; complete change populations, impact review and emergency procedures remain separate work.",
+          "source_url": "https://www.iso.org/standard/75652.html"
+        }
+      ]
+    },
+    {
+      "control_key": "CTL-12",
+      "title": "Security program oversight",
+      "links": [
+        {
+          "framework_id": "nist-csf-2.0",
+          "reference": "NIST CSF 2.0 GV.OV-01",
+          "topic": "Security program oversight",
+          "relationship": "partial",
+          "rationale": "Committee review examines selected oversight decisions; organizational objectives, risk strategy and resulting policy changes need broader evidence.",
+          "source_url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 PM-1",
+          "topic": "Security program governance",
+          "relationship": "partial",
+          "rationale": "Committee decisions may support program operation; the complete program plan, assigned responsibilities and resourcing require separate assessment.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 PM-9",
+          "topic": "Risk strategy oversight",
+          "relationship": "partial",
+          "rationale": "Escalated risk and appetite decisions can inform strategy review; approved organization-wide criteria and implementation remain separate.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "nist-sp-800-53-r5",
+          "reference": "NIST SP 800-53 Rev. 5 CA-7",
+          "topic": "Continuing control oversight",
+          "relationship": "partial",
+          "rationale": "Review of evidence gaps and overdue actions supports monitoring governance; a complete monitoring strategy and operating results need assessment.",
+          "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 clause 9.1",
+          "topic": "Performance and assurance review",
+          "relationship": "partial",
+          "rationale": "Metrics and overdue actions inform performance evaluation; suitable methods, reliable measurements and complete analysis require separate evidence.",
+          "source_url": "https://www.iso.org/standard/27001"
+        },
+        {
+          "framework_id": "iso-iec-27001-2022",
+          "reference": "ISO/IEC 27001:2022 clause 9.3",
+          "topic": "Management review decisions",
+          "relationship": "partial",
+          "rationale": "Committee records can support review evidence; required inputs, decision authority, outputs and follow-through need an ISMS-specific assessment.",
+          "source_url": "https://www.iso.org/standard/27001"
+        }
+      ]
+    }
+  ]
+}

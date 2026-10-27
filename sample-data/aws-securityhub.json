@@ -1,0 +1,47 @@
+{
+  "Findings": [
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "northstar.example/storage-public-access",
+      "ProductArn": "arn:aws:securityhub:us-east-1:000000000000:product/example/manual-export",
+      "UpdatedAt": "2026-10-01T09:00:00Z",
+      "Title": "Synthetic storage access policy needs review",
+      "Description": "Fictional demonstration only. An exported customer report store needs a policy-scope review.",
+      "Severity": {
+        "Label": "HIGH"
+      },
+      "Compliance": {
+        "Status": "FAILED"
+      },
+      "RecordState": "ACTIVE",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "northstar-exports.example"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "northstar.example/audit-log-retention",
+      "ProductArn": "arn:aws:securityhub:us-east-1:000000000000:product/example/manual-export",
+      "UpdatedAt": "2026-10-01T09:10:00Z",
+      "Title": "Synthetic cloud log retention gap",
+      "Description": "Fictional demonstration only. Confirm the approved logging retention period and evidence scope.",
+      "Severity": {
+        "Label": "MEDIUM"
+      },
+      "Compliance": {
+        "Status": "FAILED"
+      },
+      "RecordState": "ACTIVE",
+      "Resources": [
+        {
+          "Type": "AwsCloudTrailTrail",
+          "Id": "northstar-logs.example"
+        }
+      ]
+    }
+  ]
+}
+
