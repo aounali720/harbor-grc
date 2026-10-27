@@ -27,15 +27,15 @@ For implementation details, use [architecture](architecture.md). For checks actu
 
 A project description you can adapt to your own contribution:
 
-> An AI-assisted GRC application and fictional SaaS case study connecting business risks, cloud findings, supplier reviews, controls, and evidence. Includes tested workflow boundaries, NIST/ISO reference mappings, and an operating handbook.
+> I built Harbor GRC to explore how a technical finding turns into a documented risk decision. It links findings, controls, evidence, supplier reviews and ownership in a fictional SaaS environment. The repository includes runnable code, workflow tests and setup notes.
 
 In an interview or repository description, name the parts you reviewed, changed, tested, or deployed. This project demonstrates a working process and implementation; it is not experience running a real company's audit or a certificate for the sample company.
 
 ## Where the material comes from
 
-The code and documentation were created with AI assistance. Northstar Metrics, its suppliers, owners, assessments, and decisions are synthetic. Example domains use `.example`; artifact references and hashes are demonstration markers, not collected evidence. Framework mappings are selected project-authored links, with primary sources in the [source register](sources.md).
+AI assistance was used in developing this project. Northstar Metrics and its people, suppliers, assessments and decisions are fictional. Example domains use `.example`; artifact references and hashes are demonstration markers, not collected evidence. Framework mappings are selected project-authored links, with primary sources in the [source register](sources.md).
 
-The public repository is intended to contain that fictional material. Keep workplace databases, reports, logs, screenshots, credentials, signed links, and actual evidence out of it. When adapting the project, review the files and history being published; an “AI sanitized” label does not establish that review.
+The public repository is intended to contain that fictional material. Keep workplace databases, reports, logs, screenshots, credentials, signed links, and actual evidence out of it. When adapting this project, review every file and the commit history before publishing anything from a real workplace.
 
 ## Put it to use
 
